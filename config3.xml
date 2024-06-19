@@ -8,7 +8,7 @@
 		<property name="emp_id" value="1" />
 		<property name="emp_name" value="Sanskruti Thorat" />
 		<property name="emp_address" value="Pune" />
-		<property name="department" ref="department" />
+		<property name="dept" ref="department" />
 	</bean>
 	
 	<bean id="department" class="com.xmlBasedSetter.Department">
